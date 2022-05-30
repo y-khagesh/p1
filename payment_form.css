@@ -1,0 +1,55 @@
+*{
+    box-sizing: content-box;
+    align-content: center;
+}
+body{
+    background-image: url(d1.jpg) ;
+    background-size: 500px;
+    padding-left: 200px;
+    
+}
+.container{
+    background-color: cornflowerblue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border: 10px,solid,white;
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+    overflow: scroll;
+    
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+h2{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],input[type="date"],input[type="submit"],select,textarea{
+    width: 100%;
+    padding: 5px;
+    border: 10px,solid,white;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: white;
+    border:10px,solid,white ;
+    width: 300px;
+    color: black;
+    
+}
+input[type="submit"]:hover{
+    background-color: cyan;
+    cursor: pointer;
+    color: blue;
+}
+input[type="submit"]:active{
+    color: rgb(72, 235, 159);
+}
